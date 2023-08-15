@@ -1,4 +1,6 @@
+// Template
 import HomeTemplate from './template/home/HomeTemplate';
+
 
 function App() {
   return (

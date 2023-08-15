@@ -1,4 +1,4 @@
-import { Experiencia, Multimedia, Navbar } from "../../components";
+import { Experiencia, Multimedia, Navbar, Recomendaciones, TrabajosGarantizados } from "../../components";
 
 const HomeTemplate = () => {
   return (
@@ -6,6 +6,8 @@ const HomeTemplate = () => {
       <Navbar />
       <Multimedia />
       <Experiencia />
+      <Recomendaciones />
+      <TrabajosGarantizados />
     </>
   );
 };
