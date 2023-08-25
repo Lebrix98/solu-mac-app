@@ -1,0 +1,84 @@
+.work {
+  background-color: #0f0122;
+  background-size: initial;
+  background-position: center top;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 70%,
+      #0f0122 100%
+    ),
+    url(http://www.solucionesmac.cl/wp-content/uploads/2023/07/eye-bg-1.png) !important;
+}
+
+.work__container {
+  width: 100%;
+  max-width: 70%;
+  height: 25rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1050px) {
+    width: auto;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+  }
+}
+
+.work__works {
+  display: flex;
+  max-width: 20%;
+  margin-top: -152px;
+
+  @media screen and (max-width: 1050px) {
+    max-width: 100%;
+    margin-top: 0px;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding-top: 0px;
+  }
+}
+
+.work__works > h1 {
+  font-size: 14px;
+  color: #ff8154 !important;
+  text-align: start;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  font-weight: 700;
+
+  @media screen and (max-width: 1050px) {
+    font-size: 14px;
+  }
+}
+
+.work__service {
+  max-width: 70%;
+  color: white;
+  @media screen and (max-width: 1050px) {
+    max-width: 100%;
+  }
+}
+
+.work__service > h1 {
+  font-size: 48px;
+  line-height: 1.2em;
+  font-weight: 700;
+  @media screen and (max-width: 1050px) {
+    font-size: 20px;
+  }
+}
+
+.work__service > p {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 700;
+  @media screen and (max-width: 1050px) {
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+}

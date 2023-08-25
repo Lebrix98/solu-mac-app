@@ -55,6 +55,12 @@
   }
 }
 
+.navbar__media > a > img {
+  width: 100%;
+  max-width: 48px;
+  height: 48px;
+}
+
 .navbar__media > a {
   margin-right: 18px;
 
