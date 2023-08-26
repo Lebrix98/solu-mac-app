@@ -1,0 +1,10 @@
+.logoFloatImg {
+    position: fixed;
+    float: left;
+    margin: 10px;
+    width: 60px;
+
+    @media screen and (max-width: 1050px) {
+        width: 45px;
+    }
+}

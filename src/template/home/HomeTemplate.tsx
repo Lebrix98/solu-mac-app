@@ -1,13 +1,29 @@
-import { Experiencia, Multimedia, Navbar, Recomendaciones, TrabajosGarantizados } from "../../components";
+import {
+  Experiencia,
+  HardSoft,
+  Informacion,
+  LogoFloat,
+  Multimedia,
+  Recomendaciones,
+  Reparacion,
+  SocialMedia,
+  SolucionesMac,
+  TrabajosGarantizados,
+} from "../../components";
 
 const HomeTemplate = () => {
   return (
     <>
-      <Navbar />
+      <LogoFloat />
+      <SocialMedia />
       <Multimedia />
       <Experiencia />
       <Recomendaciones />
       <TrabajosGarantizados />
+      <Reparacion />
+      <HardSoft />
+      <SolucionesMac />
+      <Informacion />
     </>
   );
 };

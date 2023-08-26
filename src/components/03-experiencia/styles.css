@@ -4,7 +4,7 @@
     background-size: initial;
     background-repeat: repeat;
     background-position: center top;
-    background-image: url(http://www.solucionesmac.cl/wp-content/uploads/2023/07/grid-bg-1.png),
+    background-image: url(../../assets/fondoExperiencia.png),
       radial-gradient(
         ellipse at right,
         rgba(121, 58, 255, 0.65) 20%,
@@ -27,7 +27,7 @@
   background-size: initial;
   background-repeat: repeat;
   background-position: center top;
-  background-image: url(http://www.solucionesmac.cl/wp-content/uploads/2023/07/grid-bg-1.png),
+  background-image: url(../../assets/fondoExperiencia.png),
     radial-gradient(
       ellipse at right,
       rgba(121, 58, 255, 0.65) 10%,

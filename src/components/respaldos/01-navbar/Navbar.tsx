@@ -1,18 +1,25 @@
 // Images
-import {Logo,Facebook,Instagram,Twitter, Correo} from '../../assets/assets'
+import {
+  Logo,
+  Facebook,
+  Instagram,
+  Twitter,
+  Correo,
+  WhatsApp,
+} from "../../../assets/assets";
 
 // Styles
-import './styles.css';
+import "./styles.css";
+
+// Texts
+import { navbarText } from "./text";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__title">
-        <img
-          src={Logo}
-          alt="SolucionesMac_Logo"
-        />
-        <p>Soluciones Mac</p>
+        <img src={Logo} alt="SolucionesMac_Logo" />
+        <p>{navbarText.TITLE}</p>
       </div>
       <div className="navbar__media">
         <a href="https://web.facebook.com/solucionesmac.chile" target="_blank">
@@ -27,9 +34,12 @@ const Navbar = () => {
         <a href="mailto:contacto@solucionesmac.cl">
           <img src={Correo} alt="Correo" />
         </a>
+        <a href="https://api.whatsapp.com/send/?phone=56991298170&text&type=phone_number&app_absent=0" target="_blank">
+          <img src={WhatsApp} alt="WhatsApp" />
+        </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

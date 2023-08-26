@@ -1,0 +1,48 @@
+.fixed__container {
+  background-color: #0f0122;
+}
+
+.fixed__content {
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  height: 25rem;
+  color: white;
+
+  @media screen and (max-width: 1050px) {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+.fixed__text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  @media screen and (max-width: 1050px) {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+.fixed__text > h1 {
+  font-size: 48px;
+  margin-top: 0px;
+  font-weight: 700;
+
+  @media screen and (max-width: 1050px) {
+    font-size: 20px;
+  }
+}
+
+.fixed__text > p {
+  font-size: 16px;
+  font-weight: 700;
+  @media screen and (max-width: 1050px) {
+    font-size: 14px;
+  }
+}
