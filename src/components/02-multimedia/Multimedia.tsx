@@ -1,14 +1,17 @@
 // Styles
 import "./styles.css";
 
+import Video from '../../videos/SolucionesMacPublicidad.mp4'
+
 const Multimedia = () => {
+  const url = Video
+
   return (
-    <video className="videoSolu" loop muted autoPlay>
-      <source
-        src="http://www.solucionesmac.cl/wp-content/uploads/2023/07/SolucionesMac-Publi-redes-1080P-vimeo.mp4"
-        type="video/mp4"
-      />
-    </video>
+    <>
+      <video className="videoSolu" loop muted autoPlay>
+      <source src={url} type="video/mp4" />
+      </video>
+    </>
   );
 };
 
