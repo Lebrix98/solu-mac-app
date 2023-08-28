@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09eb3550.css",
+    "main.js": "/static/js/main.cc3a86b2.js",
+    "static/js/787.958ad568.chunk.js": "/static/js/787.958ad568.chunk.js",
+    "static/media/SolucionesMacPublicidad.mp4": "/static/media/SolucionesMacPublicidad.453ce310b8d0e6832ae0.mp4",
+    "static/media/soluciones_icon.png": "/static/media/soluciones_icon.0c4ff8519416c3866f80.png",
+    "static/media/mac_img.jpg": "/static/media/mac_img.642e1708a2cf77e73d8b.jpg",
+    "static/media/macInfo_img.jpg": "/static/media/macInfo_img.6f9bebbdd60791bdef73.jpg",
+    "static/media/brain_icon.png": "/static/media/brain_icon.f1864ac3ba0a297d2ec9.png",
+    "static/media/fondoGarantizados.png": "/static/media/fondoGarantizados.87a450cfe4360d00a79c.png",
+    "static/media/giant_eye_icon.png": "/static/media/giant_eye_icon.93513fd9c3be8dd422fc.png",
+    "static/media/instagram_icon.svg": "/static/media/instagram_icon.8680e8a5570d5033c7d99a557789329d.svg",
+    "static/media/fondoInformacion.jpg": "/static/media/fondoInformacion.de17f7d3a20632e5d43d.jpg",
+    "static/media/fondoHardSoft.png": "/static/media/fondoHardSoft.1f8de55f698e4e593a87.png",
+    "static/media/whatsapp_icon.svg": "/static/media/whatsapp_icon.6181e5cecd1a682846ba3e623621a869.svg",
+    "static/media/threads_icon.svg": "/static/media/threads_icon.d0234eab9a45a68de3408ae20b8f2056.svg",
+    "static/media/mail_icon.svg": "/static/media/mail_icon.489c61b0c71084a3232693c5f0b29134.svg",
+    "index.html": "/index.html",
+    "static/media/twitter_x_icon.svg": "/static/media/twitter_x_icon.32196ca12e85a7988667f689997674f2.svg",
+    "static/media/youtube_icon.svg": "/static/media/youtube_icon.afee9f1c1d1bddcdce6e82fdb60f27cd.svg",
+    "static/media/facebook_icon.svg": "/static/media/facebook_icon.743e8a31adbff09041bf593950fcfcce.svg",
+    "main.09eb3550.css.map": "/static/css/main.09eb3550.css.map",
+    "main.cc3a86b2.js.map": "/static/js/main.cc3a86b2.js.map",
+    "787.958ad568.chunk.js.map": "/static/js/787.958ad568.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09eb3550.css",
+    "static/js/main.cc3a86b2.js"
+  ]
+}
