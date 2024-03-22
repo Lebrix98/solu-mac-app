@@ -9,10 +9,10 @@ const SocialMedia = () => {
       <div className="socialMedia__container">
 
         {
-          socialMediaList.map( (media) => (
+          socialMediaList.map( ({id,href, src, alt}) => (
 
-            <a key={media.id} href={media.href} target="_blank">
-            <img src={media.src} alt={media.alt} />
+            <a key={id} href={href} target="_blank">
+            <img src={src} alt={alt} />
             </a>
 
           ) )

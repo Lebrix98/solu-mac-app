@@ -18,10 +18,10 @@ const Recomendaciones = () => {
         <h1>{recomendacionesTexts.TITLE}</h1>
       </div>
       <div className="videos_content">
-        {infoVideo.map((e) => (
+        {infoVideo.map(({id, src}) => (
           <iframe
-            key={e.id}
-            src={e.src}
+            key={id}
+            src={src}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           />
         ))}
